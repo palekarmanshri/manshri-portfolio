@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header>
+            <a href="#" class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span class="logo-text">Manshri Palekar</span>
+            </a>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html#project">Project</a></li>
+                    <li><a href="about.html#skills">Skills</a></li>
+                    <li><a href="graphic.html">Graphic</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+<section class="contact">
+    <div class="contact-container">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-info">
+            <h2>Let’s Connect</h2>
+            <p>Have a project, idea, or opportunity?
+            Feel free to reach out.</p>
+
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <span>palekarmanashree@gmail.com</span>
+            </div>
+
+            <div class="info-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Mumbai (Remote Available)</span>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form">
+            <form id="contactForm">
+                <h2>Send a Message</h2>
+
+                <div class="input-box">
+                    <input type="text" id="name" required>
+                    <label>Full Name</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="email" id="email" required>
+                    <label>Email Address</label>
+                </div>
+
+                <div class="input-box">
+                    <textarea id="message" required></textarea>
+                    <label>Your Message</label>
+                </div>
+
+                <button type="submit">Send Message</button>
+                <p class="success-msg" id="successMsg">Message sent successfully!</p>
+            </form>
+        </div>
+
+    </div>
+</section>
+<footer class="footer">
+    <p>© 2026 Manshri. All rights reserved.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
