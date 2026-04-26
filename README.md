@@ -10,7 +10,7 @@ A modern and responsive personal portfolio website showcasing my projects, skill
 
 ## 🚀 Live Demo
 
-🔗 https://github.com/palekarmanshri/manshri-portfolio.git
+🔗 https://palekarmanshri.github.io/manshri-portfolio/
 
 ---
 
